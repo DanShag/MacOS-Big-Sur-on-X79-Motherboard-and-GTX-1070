@@ -2,6 +2,8 @@
 
 Hello everyone, I think everyone knows that on the GTX 1070 you can install a maximum of Mac OS Sierra or High Sierra, especially on the old X79. However, with this EFI you can now run Big Sur, up to the latest version.
 
+![MacOS Big Sur](https://github.com/DanShag/tdworld.github.io/blob/main/images/20241103_180846.jpg)
+
 > _WARNING: SO FAR I CANNOT RUN ANYTHING HIGHER THAN MAC OS BIG SUR, FOR EXAMPLE MAC OS MONTEREY, I HAVE NOT YET FOUND A SOLUTION FOR THIS CONFIGURATION, BECAUSE EVERYTHING FALLS INTO KERNEL PANIC. I WILL POST A NEW REPOSITORY IF SOMETHING IS UPDATED_
 
 Tested on hardware:
