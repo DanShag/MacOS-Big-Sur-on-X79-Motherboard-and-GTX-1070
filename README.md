@@ -1,24 +1,24 @@
 # MacOS-Big-Sur-on-X79-Motherboard-and-GTX-1070
 
-Здравствуйте всем, думаю всем известно что на GTX 1070 можно поставить максимум Mac OS Sierra или High Sierra, уж тем более на старый X79. Однако, с помощью данного EFI вы сможете запустить теперь и Big Sur, вплоть до последней версии.
+Hello everyone, I think everyone knows that on the GTX 1070 you can install a maximum of Mac OS Sierra or High Sierra, especially on the old X79. However, with this EFI you can now run Big Sur, up to the latest version.
 
-WARNING: ПОКА ЧТО ЗАПУСТИТЬ ВЫШЕ ЧЕМ MAC OS BIG SUR, НАПРИМЕР MAC OS MONTEREY, Я НЕ МОГУ, ЕЩЁ НЕ НАШЁЛ РЕШЕНИЕ ИМЕННО ДЛЯ ЭТОЙ КОНФИГУРАЦИИ, ИБО ВСЁ ВПАДАЕТ В KERNEL PANIC. Я ВЫЛОЖУ НОВЫЙ РЕПОЗИТОРИЙ ЕСЛИ ЧТО-ТО ОБНОВИТСЯ
+> _WARNING: SO FAR I CANNOT RUN ANYTHING HIGHER THAN MAC OS BIG SUR, FOR EXAMPLE MAC OS MONTEREY, I HAVE NOT YET FOUND A SOLUTION FOR THIS CONFIGURATION, BECAUSE EVERYTHING FALLS INTO KERNEL PANIC. I WILL POST A NEW REPOSITORY IF SOMETHING IS UPDATED_
 
-Проверено на железе:
-Machinist X79 (2.82H, C602 чипсет, для кого то это может быть важным)
+Tested on hardware:
+Machinist X79 (2.82H, C602 chipset, for someone this may be important)
 Xeon E5-2650V2
-GTX 1070 (Pascal, возможно будет запускаться и на видеокартах ниже, например Maxwell)
+GTX 1070 (Pascal, may also run on lower video cards, for example Maxwell)
 
-Инструкция установки, которую я использовал для этого EFI:
-1. Запустите BDUTillity.exe, который лежит вместе в архиве
-2. Вставляем флешку, рекомендую минимум 16 или 32 гигабайта
-3. Форматируйте вашу флешку через программу
-4. Зайдите в созданный новый созданный раздел "BDU", удалите всё что там есть (это не пригодится)
-5. Переместите мой EFI в раздел BDU, переместитесь снова в программу и выберите PART2, нажмите кнопку Restore и выберите  вашу MacOS (нужен HFS файл)
-6. Дождитесь завершении операции и загрузитесь с вашей флешки.
-7. Выберите установщик MacOS и устанавливайте систему.
+## Installation instructions that I used for this EFI:
+1. Run BDUTillity.exe, which is in the archive
+2. Insert a flash drive, I recommend at least 16 or 32 gigabytes
+3. Format your flash drive through the program
+4. Go to the newly created "BDU" partition, delete everything that is there (this is not useful)
+5. Move my EFI to the BDU partition, move back to the program and select PART2, click the Restore button and select your MacOS (HFS is needed file)
+6. Wait for the operation to complete and boot from your flash drive.
+7. Select the MacOS installer and install the system.
 
-На данном этапе вы должны были успешно установить MacOS Big Sur.
-Если что-то пошло не так, установщик зависает, выпадает Kernel Panic, можете обратиться ко мне в Telegram: https://t.me/danyashag
+At this point, you should have successfully installed MacOS Big Sur.
+If something went wrong, the installer freezes, or Kernel Panic occurs, you can contact me on Telegram: https://t.me/danyashag
 
-Помощь в очистке EFI от мусора, помощь в перестройке EFI: https://github.com/dima-lq
+Help in cleaning EFI from garbage, help in rebuilding EFI: https://github.com/dima-lq
